@@ -1,4 +1,2 @@
-coq-iterable
-============
-
+# Iterable
 Generic definition of iterators.
