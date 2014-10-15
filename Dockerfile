@@ -18,7 +18,7 @@ RUN opam repo add coq https://github.com/coq/opam-coq-repo.git
 
 # Unstable dependencies
 RUN opam repo add coq-unstable https://github.com/coq/opam-coq-repo-unstable.git
-RUN opam install -y coq-monad
+RUN opam install -y coq-function-ninjas coq-monad
 
 # Build
 ADD . /root/coq-iterable
